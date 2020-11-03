@@ -149,7 +149,7 @@ def preprocess(fp):
 
 
     #writing dataframe to a csv file
-    df_reorder.to_csv(r'C:\Users\insan\OneDrive\Desktop\task\Data_Preprocessing\twecet_pre.csv',encoding='utf-8', index= False)
+    df_reorder.to_csv(r'C:\Users\insan\OneDrive\Desktop\task\Data_Preprocessing\tweet_pre.csv',encoding='utf-8', index= False)
 
     return corpus
 
@@ -161,7 +161,7 @@ def loadAppostophesDict(fp_contraction):
 if __name__ == "__main__":
 
     # function calls to contractions and preprocessing
-    DATASET_FP = r"C:\Users\insan\OneDrive\Desktop\task\tweet_data\raw_tweet.csv"
+    DATASET_FP = r"C:\Users\insan\OneDrive\Desktop\task\raw_tweet.csv"
     APPOSTOPHES_FP = r"C:\Users\insan\OneDrive\Desktop\task\Data_Preprocessing\appos_dict.txt"
     apoDict = loadAppostophesDict(APPOSTOPHES_FP)
     corpus = preprocess(DATASET_FP)
