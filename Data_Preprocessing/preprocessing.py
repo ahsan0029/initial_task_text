@@ -31,12 +31,8 @@ def preprocess(fp):
         for line in csv_reader:
             # discarding first line
             if not 'Text' in line[0]:
-
-                # dividing a row into two sections and selectig text for further processing
-                #timestamp = line [1]
+                
                 tweet = line[0]
-                #tweet = tweet.strip()
-                # remove retweets tag
                 tweet = re.sub(r'RT','', tweet)
                 print(tweet)
 
@@ -71,12 +67,7 @@ def preprocess(fp):
                 except Exception:
                     pass
 
-                # remove more unicode characters
-                try:
-                    tweet = tweet.encode('ascii').decode('unicode-escape')
-                    tweet = HTMLParser().unescape(tweet)
-                except Exception:
-                    pass
+             
 
                 # Standardising words
                 tweet = ''.join(''.join(s)[:2] for _, s in itertools.groupby(tweet))
@@ -103,43 +94,15 @@ def preprocess(fp):
                 tweet = ' '.join(segmented_word)
 
                 # remove special symbols
-                tweet = re.sub('[@#$._|]', ' ', tweet)
+                tweet = re.sub('[@#$._|:,``!;]', ' ', tweet)
 
                 # remove extra whitespaces
                 tweet = re.sub('[\s]+', ' ', tweet)
 
-                # Spelling correction
-                spell_list = word_tokenize(tweet)
-                filterlist = []
-                for i in spell_list:
-                    correct_spell = spell(i)
-                    filterlist.append(correct_spell)
-                tweet = ' '.join(filterlist)
-
-                # lemmatization of tweets
-                tweet = word_tokenize(tweet)
-                lemma_tweet = []
-                for tweet_word in tweet:
-                    lemma_tweet.append(WordNetLemmatizer().lemmatize(tweet_word,'v'))
-
-                tweet = ' '.join(lemma_tweet)
-
-                # remove stop words
-                token_list = word_tokenize(tweet)
-                wordsFiltered = []
-                for i in token_list:
-                    if i not in stopWords:
-                        wordsFiltered.append(i)
-                tweet = ' '.join(wordsFiltered)
-
-                # remove open or empty lines
-                if not re.match(r'^\s*$', tweet):
-                    if not len(tweet) <= 3:
-                        corpus.append(tweet)
 
                 # creating a dictionary
                 data['Text'].append(tweet)
-                #data['Timestamp'].append(timestamp)
+            
     #creating a dataframe
     df = pd.DataFrame(data)
     print(df.to_string)
@@ -149,7 +112,7 @@ def preprocess(fp):
 
 
     #writing dataframe to a csv file
-    df_reorder.to_csv(r'C:\Users\insan\OneDrive\Desktop\task\Data_Preprocessing\tweet_pre.csv',encoding='utf-8', index= False)
+    df_reorder.to_csv(r'C:\Users\insan\OneDrive\Desktop\task_initial\Data_Preprocessing\tweet_pre.csv',encoding='utf-8', index= False)
 
     return corpus
 

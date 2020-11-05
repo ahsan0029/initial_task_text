@@ -10,4 +10,4 @@ for key, value in data.items():
 data_2=data_1.head(50)
 #print(data_2)
 
-data_2.to_csv(r"C:\Users\insan\OneDrive\Desktop\task_initial\raw_tweet.csv",index = None)
+data_2.to_csv(r"C:\Users\insan\OneDrive\Desktop\task_initial\Tweet_data\raw_tweet.csv",index = None)
