@@ -21,12 +21,7 @@ for index, row in data_2.iterrows():
 
     #print(annotations)
     results.append(annotations)
-
-
 with open(r'C:\Users\insan\OneDrive\Desktop\task_initial\dbpedia_location\dbpedia_location.json', 'w') as json_file:
     json.dump(results, json_file)
-# jsondata = json.dumps(annotations)
 
-# with open(r"C:\Users\insan\OneDrive\Desktop\initial_task/location.json", "w") as f:
-#         f.write(jsondata)
-#         f.close()
+    
