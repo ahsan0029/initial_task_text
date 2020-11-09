@@ -14,7 +14,7 @@ for index, row in response.iterrows():
     raw.append(a) 
 places=raw    
 # letters_only = re.sub("[^a-zA-Z]"," ",str(raw))
-places=str(raw)
+#places=str(raw)
 #print(letters_only)
 #places = GeoText(letters_only)
 print(places)
@@ -38,5 +38,6 @@ for city in cities:
              
 #print(lat_lon)
 df = pd.DataFrame(lat_lon, columns=['Country', 'Coordinates'])
-df.to_csv(r"C:\Users\insan\OneDrive\Desktop\task_initial\dbpedia_location\coordinate_location.csv",index = None)
+df1= df[['Coordinates']]
+df1.to_csv(r"C:\Users\insan\OneDrive\Desktop\task_initial\geopy\coordinate_location.csv",index = None)
 #print(df.head(5))
