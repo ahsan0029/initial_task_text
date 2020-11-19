@@ -1,0 +1,355 @@
+[
+('#refugeeswelcome hashtag calls for change: CNN\'s Hala Gorani discusses that Germany is expecting 800.000 aylum..."', {
+'entities': [(43, 46, 'ORG'), (49, 60, 'PERSON'), (76, 83, 'GPE'), (97, 104, 'CARDINAL')],
+'heads': [3, 2, 3, 11, 3, 4, 11, 10, 7, 10, 11, 11, 15, 15, 15, 11, 17, 15, 11, 11],
+'deps': ['nmod', 'compound', 'compound', 'ccomp', 'prep', 'pobj', 'punct', 'poss', 'case', 'compound', 'nsubj', 'ROOT', 'mark', 'nsubj', 'aux', 'ccomp', 'nsubj', 'dobj', 'punct', 'punct'],
+'tags': ['$', 'NN', 'NN', 'NNS', 'IN', 'NN', ':', 'NNP', 'POS', 'NNP', 'NNP', 'VBZ', 'IN', 'NNP', 'VBZ', 'VBG', 'CD', 'JJ', '.', "''"]
+}),
+('RT @nytimes:', {
+'entities': [],
+'heads': [1, 1, 1],
+'deps': ['nsubj', 'ROOT', 'punct'],
+'tags': ['NNP', 'VBZ', ':']
+}),
+('Nearly 5000 migrants arrived in Austria on Saturday after Hungary helped them travel in safety', {
+'entities': [(7, 20, 'QUANTITY'), (32, 39, 'GPE'), (43, 51, 'DATE'), (58, 65, 'GPE')],
+'heads': [1, 2, 3, 3, 3, 4, 3, 6, 10, 10, 3, 12, 10, 12, 13],
+'deps': ['advmod', 'nummod', 'nsubj', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'mark', 'nsubj', 'advcl', 'nsubj', 'ccomp', 'prep', 'pobj'],
+'tags': ['RB', 'CD', 'NNS', 'VBD', 'IN', 'NNP', 'IN', 'NNP', 'IN', 'NNP', 'VBD', 'PRP', 'VB', 'IN', 'NN']
+}),
+('"RT @ECentauri: 20,000 MIGRANTS HAVE ENTERED CROATIA SINCE HUNGARY BLOCKED ROUTE INTO EU', {
+'entities': [(16, 22, 'CARDINAL'), (59, 80, 'ORG'), (86, 88, 'ORG')],
+'heads': [8, 2, 7, 7, 5, 7, 7, 8, 8, 8, 12, 12, 9, 14, 8],
+'deps': ['punct', 'compound', 'dep', 'punct', 'nummod', 'nsubj', 'aux', 'amod', 'ROOT', 'prep', 'nmod', 'compound', 'pobj', 'compound', 'conj'],
+'tags': ['``', 'NNP', 'NN', ':', 'CD', 'NNS', 'VBP', 'NN', 'NNS', 'IN', 'NNP', 'VBD', 'NNS', 'VBP', 'NNP']
+}),
+('Hundreds of migrants leave Budapest station and start walking for the Austrian border via @BBC', {
+'entities': [(0, 8, 'CARDINAL'), (27, 35, 'GPE'), (70, 78, 'NORP')],
+'heads': [3, 0, 1, 3, 5, 3, 3, 3, 7, 8, 12, 12, 9, 7, 13],
+'deps': ['nsubj', 'prep', 'pobj', 'ROOT', 'compound', 'dobj', 'cc', 'conj', 'xcomp', 'prep', 'det', 'amod', 'pobj', 'prep', 'amod'],
+'tags': ['NNS', 'IN', 'NNS', 'VBP', 'NNP', 'NN', 'CC', 'VB', 'VBG', 'IN', 'DT', 'JJ', 'NN', 'IN', '.']
+}),
+('"RT @AfricasaCountry: While you\'re praising Germany: In Lebanon, every 4th inhabitant is a refugee; Ethiopia alone hosts 665,000 refugees an…"', {
+'entities': [(1, 43, 'WORK_OF_ART'), (44, 51, 'GPE'), (56, 63, 'GPE'), (71, 74, 'ORDINAL'), (100, 108, 'GPE'), (121, 128, 'CARDINAL')],
+'heads': [22, 2, 16, 16, 7, 7, 7, 16, 7, 16, 16, 10, 16, 15, 15, 16, 22, 18, 16, 22, 22, 20, 22, 24, 22, 22, 22, 22],
+'deps': ['punct', 'compound', 'dep', 'punct', 'mark', 'nsubj', 'aux', 'advcl', 'dobj', 'punct', 'prep', 'pobj', 'punct', 'det', 'amod', 'nsubj', 'ccomp', 'det', 'attr', 'punct', 'nsubj', 'advmod', 'ROOT', 'nummod', 'dobj', 'dobj', 'punct', 'punct'],
+'tags': ['``', 'NNP', 'NN', ':', 'IN', 'PRP', 'VBP', 'VBG', 'NNP', ':', 'IN', 'NNP', ',', 'DT', 'JJ', 'NN', 'VBZ', 'DT', 'NN', ':', 'NNP', 'RB', 'VBZ', 'CD', 'NNS', 'DT', 'NFP', "''"]
+}),
+('"RT @kongoecho:', {
+'entities': [],
+'heads': [0, 2, 0, 2],
+'deps': ['ROOT', 'compound', 'pcomp', 'punct'],
+'tags': ['``', 'NNP', 'NN', ':']
+}),
+('Historic:', {
+'entities': [],
+'heads': [0, 0],
+'deps': ['ROOT', 'punct'],
+'tags': ['JJ', ':']
+}),
+('Germany expects 50.000 more refugees over weekend.', {
+'entities': [(0, 7, 'GPE'), (16, 22, 'CARDINAL'), (42, 49, 'DATE')],
+'heads': [1, 1, 4, 4, 1, 4, 5, 1],
+'deps': ['nsubj', 'ROOT', 'nummod', 'amod', 'dobj', 'prep', 'pobj', 'punct'],
+'tags': ['NNP', 'VBZ', 'CD', 'JJR', 'NNS', 'IN', 'NN', '.']
+}),
+('At some point the welcome will chill, like the weather.', {
+'entities': [],
+'heads': [6, 2, 0, 4, 6, 6, 6, 6, 6, 10, 8, 6],
+'deps': ['prep', 'det', 'pobj', 'det', 'nsubj', 'aux', 'ROOT', 'punct', 'prep', 'det', 'pobj', 'punct'],
+'tags': ['IN', 'DT', 'NN', 'DT', 'NN', 'MD', 'VB', ',', 'IN', 'DT', 'NN', '.']
+}),
+('Harsh a…"', {
+'entities': [],
+'heads': [1, 1, 1, 2],
+'deps': ['compound', 'ROOT', 'punct', 'punct'],
+'tags': ['JJ', 'NN', 'NFP', "''"]
+}),
+('"RT hrw:', {
+'entities': [],
+'heads': [2, 2, 2, 2],
+'deps': ['punct', 'compound', 'ROOT', 'punct'],
+'tags': ['``', 'NNP', 'NN', ':']
+}),
+('RT bouckap:', {
+'entities': [],
+'heads': [1, 1, 1],
+'deps': ['compound', 'ROOT', 'punct'],
+'tags': ['NNP', 'NN', ':']
+}),
+('Now that #Germany has agreed 2 take', {
+'entities': [(10, 17, 'GPE'), (29, 30, 'CARDINAL')],
+'heads': [7, 5, 3, 5, 5, 0, 5, 7],
+'deps': ['advmod', 'mark', 'nmod', 'nsubj', 'aux', 'ccomp', 'dobj', 'ROOT'],
+'tags': ['RB', 'IN', 'NNP', 'NNP', 'VBZ', 'VBN', 'CD', 'VB']
+}),
+('#SyrianRefugees stuck in #Hungary, other #EU countries sho… "', {
+'entities': [(0, 1, 'CARDINAL'), (1, 15, 'ORG'), (26, 33, 'GPE'), (42, 44, 'ORG')],
+'heads': [1, 2, 2, 2, 5, 3, 5, 10, 10, 10, 5, 10, 2, 2],
+'deps': ['nmod', 'nsubj', 'ROOT', 'prep', 'nmod', 'pobj', 'punct', 'amod', 'nmod', 'compound', 'appos', 'appos', 'punct', 'punct'],
+'tags': ['NNP', 'NNP', 'VBD', 'RP', '$', 'NNP', ',', 'JJ', '$', 'NNP', 'NNS', 'UH', 'NFP', "''"]
+}),
+('"RT @PierreCrom:', {
+'entities': [],
+'heads': [0, 2, 0, 2],
+'deps': ['ROOT', 'compound', 'pcomp', 'punct'],
+'tags': ['``', 'NNP', 'NN', ':']
+}),
+('Border with Serbia in #Roszke #Hungary turned into a refugee camp with hundreds of #refugees sleeping outside, many asking …"', {
+'entities': [(12, 18, 'GPE'), (22, 29, 'MONEY'), (31, 38, 'GPE'), (71, 79, 'CARDINAL')],
+'heads': [8, 0, 1, 0, 7, 7, 7, 3, 8, 8, 12, 12, 9, 8, 13, 14, 17, 15, 17, 18, 22, 22, 8, 22, 22],
+'deps': ['nsubj', 'prep', 'pobj', 'prep', 'nmod', 'compound', 'compound', 'pobj', 'ROOT', 'prep', 'det', 'compound', 'pobj', 'prep', 'pobj', 'prep', 'quantmod', 'pobj', 'acl', 'advmod', 'punct', 'nsubj', 'advcl', 'punct', 'punct'],
+'tags': ['NN', 'IN', 'NNP', 'IN', '$', 'NNP', '$', 'NNP', 'VBD', 'IN', 'DT', 'NN', 'NN', 'IN', 'NNS', 'IN', '$', 'NNS', 'VBG', 'RB', ',', 'JJ', 'NN', 'NFP', "''"]
+}),
+('"@CunningDessert Gah that\'s so sad!!', {
+'entities': [],
+'heads': [4, 4, 1, 4, 4, 6, 4, 4, 4],
+'deps': ['punct', 'dep', 'dobj', 'nsubj', 'ROOT', 'advmod', 'acomp', 'punct', 'punct'],
+'tags': ['``', 'NFP', 'NNP', 'DT', 'VBZ', 'RB', 'JJ', '.', '.']
+}),
+('!', {
+'entities': [],
+'heads': [0],
+'deps': ['ROOT'],
+'tags': ['.']
+}),
+('4 million refugees...', {
+'entities': [(0, 9, 'CARDINAL')],
+'heads': [1, 2, 2, 2],
+'deps': ['compound', 'nummod', 'ROOT', 'punct'],
+'tags': ['CD', 'CD', 'NNS', ':']
+}),
+('Germany is taking 800,000 and so far, we have 1,500.', {
+'entities': [(0, 7, 'GPE'), (18, 25, 'CARDINAL'), (46, 51, 'CARDINAL')],
+'heads': [2, 2, 2, 2, 2, 6, 9, 9, 9, 2, 9, 9],
+'deps': ['nsubj', 'aux', 'ROOT', 'dobj', 'cc', 'advmod', 'advmod', 'punct', 'nsubj', 'conj', 'dobj', 'punct'],
+'tags': ['NNP', 'VBZ', 'VBG', 'CD', 'CC', 'RB', 'RB', ',', 'PRP', 'VBP', 'CD', '.']
+}),
+('It\'s absurd!"', {
+'entities': [],
+'heads': [1, 1, 1, 1, 1],
+'deps': ['nsubj', 'ROOT', 'acomp', 'punct', 'punct'],
+'tags': ['PRP', 'VBZ', 'JJ', '.', "''"]
+}),
+('RT @BreitbartLondon:', {
+'entities': [],
+'heads': [1, 1, 1],
+'deps': ['compound', 'ROOT', 'punct'],
+'tags': ['NNP', ':', ':']
+}),
+('The Truth:', {
+'entities': [(0, 10, 'WORK_OF_ART')],
+'heads': [1, 1, 1],
+'deps': ['det', 'ROOT', 'punct'],
+'tags': ['DT', 'NN', ':']
+}),
+('Leaked Documents Reveal Austria Could Spend 12 Billion On Migrant Crisis', {
+'entities': [(44, 54, 'MONEY')],
+'heads': [3, 3, 3, 5, 5, 5, 7, 5, 5, 10, 8],
+'deps': ['compound', 'compound', 'compound', 'nsubj', 'aux', 'ROOT', 'compound', 'dobj', 'prep', 'compound', 'pobj'],
+'tags': ['VBN', 'NNPS', 'NNP', 'NNP', 'MD', 'VB', 'CD', 'CD', 'IN', 'JJ', 'NN']
+}),
+('"Germany has talked about taking upward of 800,000 so … the American effort would be relatively small #welcomerefugees "', {
+'entities': [(1, 8, 'GPE'), (43, 50, 'CARDINAL'), (60, 68, 'NORP'), (102, 103, 'CARDINAL')],
+'heads': [15, 3, 3, 15, 3, 4, 5, 5, 9, 7, 15, 13, 13, 15, 15, 15, 17, 19, 19, 15, 15],
+'deps': ['punct', 'nsubj', 'aux', 'ccomp', 'prep', 'pcomp', 'dobj', 'prep', 'nummod', 'pobj', 'punct', 'det', 'amod', 'nsubj', 'aux', 'ROOT', 'advmod', 'amod', 'nmod', 'attr', 'punct'],
+'tags': ['``', 'NNP', 'VBZ', 'VBN', 'IN', 'VBG', 'RB', 'IN', 'CD', 'RB', 'NFP', 'DT', 'JJ', 'NN', 'MD', 'VB', 'RB', 'JJ', 'NN', 'NNS', "''"]
+}),
+('RT @business: Hundreds of refugees arrive in Germany after police in Hungary and Austria let them travel by train', {
+'entities': [(14, 22, 'CARDINAL'), (45, 52, 'GPE'), (69, 76, 'GPE'), (81, 88, 'GPE')],
+'heads': [0, 0, 6, 6, 3, 4, 0, 6, 7, 15, 15, 10, 11, 12, 12, 6, 17, 15, 17, 18],
+'deps': ['ROOT', 'advmod', 'punct', 'nsubj', 'prep', 'pobj', 'acl', 'prep', 'pobj', 'mark', 'nsubj', 'prep', 'pobj', 'cc', 'conj', 'advcl', 'nsubj', 'ccomp', 'prep', 'pobj'],
+'tags': ['NNP', 'NN', ':', 'NNS', 'IN', 'NNS', 'VBP', 'IN', 'NNP', 'IN', 'NNS', 'IN', 'NNP', 'CC', 'NNP', 'VBD', 'PRP', 'VB', 'IN', 'NN']
+}),
+('"Hundreds of migrants protest at Budapest station, want to go to Germany "', {
+'entities': [(1, 9, 'CARDINAL'), (33, 41, 'GPE'), (65, 72, 'GPE')],
+'heads': [9, 4, 1, 2, 9, 4, 7, 5, 9, 9, 11, 9, 11, 12, 9],
+'deps': ['punct', 'nsubj', 'prep', 'pobj', 'nsubj', 'prep', 'compound', 'pobj', 'punct', 'ROOT', 'aux', 'xcomp', 'prep', 'pobj', 'punct'],
+'tags': ['``', 'NNS', 'IN', 'NNS', 'NN', 'IN', 'NNP', 'NN', ',', 'VBP', 'TO', 'VB', 'IN', 'NNP', "''"]
+}),
+('"  France announces it will take in 24,000 refugees German Chancellor Angela Merkel, reflectin… "', {
+'entities': [(3, 9, 'GPE'), (36, 42, 'CARDINAL'), (52, 58, 'NORP'), (70, 83, 'PERSON'), (85, 94, 'PERSON')],
+'heads': [3, 0, 3, 3, 6, 6, 3, 6, 9, 6, 11, 13, 13, 9, 15, 9, 3, 3],
+'deps': ['punct', '', 'nsubj', 'ROOT', 'nsubj', 'aux', 'ccomp', 'prt', 'nummod', 'dobj', 'amod', 'compound', 'compound', 'appos', 'punct', 'appos', 'punct', 'punct'],
+'tags': ['``', '_SP', 'NNP', 'VBZ', 'PRP', 'MD', 'VB', 'RP', 'CD', 'NNS', 'JJ', 'NNP', 'NNP', 'NNP', ',', 'NNP', 'NFP', "''"]
+}),
+('RT @AUStockMarket:', {
+'entities': [],
+'heads': [1, 1, 1],
+'deps': ['compound', 'ROOT', 'punct'],
+'tags': ['NNP', 'XX', ':']
+}),
+('Germany receives over 100 migrants an hour:', {
+'entities': [(0, 7, 'GPE'), (22, 34, 'MONEY')],
+'heads': [1, 1, 3, 4, 1, 6, 4, 1],
+'deps': ['nsubj', 'ROOT', 'quantmod', 'nummod', 'dobj', 'det', 'npadvmod', 'punct'],
+'tags': ['NNP', 'VBZ', 'IN', 'CD', 'NNS', 'DT', 'NN', ':']
+}),
+('Record influx of refugees travels on packed…', {
+'entities': [],
+'heads': [1, 4, 1, 2, 4, 4, 5, 4],
+'deps': ['compound', 'nsubj', 'prep', 'pobj', 'ROOT', 'prep', 'pobj', 'punct'],
+'tags': ['NN', 'NN', 'IN', 'NNS', 'NNS', 'IN', 'JJ', 'NFP']
+}),
+('"Thousands of Migrants Reach Austria: About 2,700 migrants, desperate to leave Hungary for Western Europe, reac... "', {
+'entities': [(1, 10, 'CARDINAL'), (38, 58, 'QUANTITY'), (79, 86, 'GPE'), (91, 105, 'LOC')],
+'heads': [1, 1, 1, 2, 5, 1, 1, 8, 9, 1, 1, 1, 13, 11, 13, 13, 17, 15, 1, 1, 1, 1],
+'deps': ['punct', 'ROOT', 'prep', 'pobj', 'compound', 'appos', 'punct', 'advmod', 'nummod', 'appos', 'punct', 'amod', 'aux', 'xcomp', 'dobj', 'prep', 'compound', 'pobj', 'punct', 'npadvmod', 'punct', 'punct'],
+'tags': ['``', 'NNS', 'IN', 'NNPS', 'NNP', 'NNP', ':', 'IN', 'CD', 'NNS', ',', 'JJ', 'TO', 'VB', 'NNP', 'IN', 'NNP', 'NNP', ',', 'NN', ':', "''"]
+}),
+('"RT @jrosyfield:', {
+'entities': [(1, 16, 'WORK_OF_ART')],
+'heads': [0, 2, 0, 2],
+'deps': ['ROOT', 'compound', 'pcomp', 'punct'],
+'tags': ['``', 'NNP', ':', ':']
+}),
+('Inspired by yesterdays success, hundreds more refugees have joind the #refugeemarch from #Hungary to Austria "', {
+'entities': [(32, 40, 'CARDINAL'), (70, 71, 'CARDINAL'), (90, 97, 'GPE'), (101, 108, 'GPE')],
+'heads': [9, 0, 3, 1, 9, 7, 7, 9, 9, 9, 12, 12, 9, 9, 15, 13, 13, 16, 9],
+'deps': ['advcl', 'agent', 'compound', 'pobj', 'punct', 'amod', 'amod', 'nsubj', 'aux', 'ROOT', 'det', 'nmod', 'dobj', 'prep', 'nmod', 'pobj', 'prep', 'pobj', 'punct'],
+'tags': ['VBN', 'IN', 'NNS', 'NN', ',', 'NNS', 'JJR', 'NNS', 'VBP', 'VB', 'DT', '$', 'NN', 'IN', '$', 'NNP', 'IN', 'NNP', "''"]
+}),
+('"Having lived in the same flat for 16 years, a German woman is being forced to move out to make way for refugees,... "', {
+'entities': [(35, 43, 'DATE'), (47, 53, 'NORP')],
+'heads': [16, 2, 16, 2, 6, 6, 3, 2, 9, 7, 16, 13, 13, 16, 16, 16, 16, 18, 16, 18, 21, 18, 21, 22, 23, 16, 16, 16],
+'deps': ['punct', 'aux', 'advcl', 'prep', 'det', 'amod', 'pobj', 'prep', 'nummod', 'pobj', 'punct', 'det', 'amod', 'nsubjpass', 'aux', 'auxpass', 'ROOT', 'aux', 'xcomp', 'prt', 'aux', 'advcl', 'dobj', 'prep', 'pobj', 'punct', 'punct', 'punct'],
+'tags': ['``', 'VBG', 'VBN', 'IN', 'DT', 'JJ', 'NN', 'IN', 'CD', 'NNS', ',', 'DT', 'JJ', 'NN', 'VBZ', 'VBG', 'VBN', 'TO', 'VB', 'RP', 'TO', 'VB', 'NN', 'IN', 'NNS', ',', ':', "''"]
+}),
+('RT @CourtA: 400 #refugees leave Nickelsdorf on a special free train to Vienna #refugeeswelcome', {
+'entities': [(12, 17, 'MONEY'), (32, 43, 'GPE'), (71, 77, 'GPE'), (78, 94, 'MONEY')],
+'heads': [1, 1, 1, 5, 5, 1, 5, 6, 6, 12, 12, 12, 8, 12, 15, 16, 13],
+'deps': ['compound', 'ROOT', 'punct', 'nummod', 'compound', 'appos', 'acl', 'dobj', 'prep', 'det', 'amod', 'amod', 'pobj', 'prep', 'compound', 'dep', 'pobj'],
+'tags': ['NNP', 'NN', ':', 'CD', '$', 'NNS', 'VBP', 'NNP', 'IN', 'DT', 'JJ', 'JJ', 'NN', 'IN', 'NNP', ',', 'VB']
+}),
+('#Austria', {
+'entities': [(1, 8, 'GPE')],
+'heads': [1, 1],
+'deps': ['compound', 'ROOT'],
+'tags': ['NNP', 'NNP']
+}),
+('Refugees storm re-opened Hungary train station: Hundreds of refugees storm into Budapest station after standof...', {
+'entities': [(25, 32, 'GPE'), (48, 56, 'CARDINAL'), (80, 88, 'GPE')],
+'heads': [1, 1, 3, 4, 7, 7, 7, 1, 12, 12, 9, 10, 1, 12, 15, 13, 12, 16, 1],
+'deps': ['nsubj', 'ROOT', 'dep', 'dep', 'amod', 'compound', 'compound', 'dobj', 'punct', 'nsubj', 'prep', 'pobj', 'appos', 'prep', 'compound', 'pobj', 'prep', 'pobj', 'punct'],
+'tags': ['NNS', 'NN', 'VBD', 'VBN', 'VBN', 'NNP', 'NN', 'NN', ':', 'NNS', 'IN', 'NNS', 'VBP', 'IN', 'NNP', 'NN', 'IN', 'NNP', '.']
+}),
+('RT @PatrickGruska:', {
+'entities': [],
+'heads': [1, 1, 1],
+'deps': ['compound', 'ROOT', 'punct'],
+'tags': ['NNP', 'NNP', ':']
+}),
+('Noch ca 1500 Flüchtlinge am Westbahnhof - ÖBB haben Notschlafstellen eingerichtet.', {
+'entities': [(0, 4, 'ORG'), (8, 12, 'CARDINAL'), (13, 24, 'ORG'), (28, 45, 'PERSON'), (52, 68, 'PERSON')],
+'heads': [4, 4, 3, 4, 4, 7, 7, 8, 10, 10, 4, 4],
+'deps': ['nsubj', 'aux', 'nummod', 'nsubj', 'ROOT', 'compound', 'punct', 'compound', 'compound', 'compound', 'attr', 'punct'],
+'tags': ['NNP', 'NNP', 'CD', 'NNP', 'NN', 'NNP', 'HYPH', 'NNP', 'NNP', 'NNP', 'NN', '.']
+}),
+('Heute geht kein Zug mehr nach Deutsch…', {
+'entities': [(30, 37, 'PERSON')],
+'heads': [1, 2, 2, 6, 6, 6, 2, 2],
+'deps': ['compound', 'compound', 'ROOT', 'nmod', 'amod', 'compound', 'appos', 'punct'],
+'tags': ['JJ', 'JJ', 'NNP', 'NNP', 'NN', 'NN', 'NNP', 'NFP']
+}),
+('"Germany: 5 Injured in Overnight Fire at Rottenburg Refugee Camp, Arson Suspected  via @ibtimes_india #refugeeswelcome"', {
+'entities': [(1, 8, 'GPE'), (10, 11, 'CARDINAL'), (23, 37, 'FAC'), (41, 64, 'FAC'), (66, 81, 'ORG'), (102, 103, 'MONEY')],
+'heads': [1, 1, 1, 4, 1, 4, 7, 5, 4, 11, 11, 8, 11, 14, 1, 14, 14, 18, 19, 16, 14],
+'deps': ['punct', 'ROOT', 'punct', 'nummod', 'appos', 'prep', 'compound', 'pobj', 'prep', 'compound', 'compound', 'pobj', 'punct', 'compound', 'appos', '', 'prep', 'compound', 'dep', 'pobj', 'punct'],
+'tags': ['``', 'NNP', ':', 'CD', 'VBN', 'IN', 'NNP', 'NNP', 'IN', 'NNP', 'NNP', 'NNP', ',', 'NNP', 'NNP', '_SP', 'IN', 'NN', 'NN', 'NN', "''"]
+}),
+('@LBC @StigAbell', {
+'entities': [],
+'heads': [0, 0],
+'deps': ['ROOT', 'punct'],
+'tags': ['NNP', 'NNP']
+}),
+("Can the 'low cast' millions in India come as they are suffering?...", {
+'entities': [(19, 27, 'CARDINAL'), (31, 36, 'GPE')],
+'heads': [9, 6, 6, 4, 6, 6, 9, 6, 7, 9, 13, 13, 13, 9, 9, 9],
+'deps': ['aux', 'det', 'punct', 'amod', 'nmod', 'punct', 'nsubj', 'prep', 'pobj', 'ROOT', 'mark', 'nsubj', 'aux', 'advcl', 'punct', 'punct'],
+'tags': ['MD', 'DT', '``', 'JJ', 'NN', "''", 'NNS', 'IN', 'NNP', 'VBP', 'IN', 'PRP', 'VBP', 'VBG', '.', 'NFP']
+}),
+('iF migrants are wanted Germany must sent ferry boats.', {
+'entities': [(23, 30, 'GPE')],
+'heads': [3, 3, 3, 6, 6, 6, 6, 8, 6, 6],
+'deps': ['mark', 'nsubjpass', 'auxpass', 'advcl', 'nsubj', 'aux', 'ROOT', 'compound', 'dobj', 'punct'],
+'tags': ['IN', 'NNS', 'VBP', 'VBN', 'NNP', 'MD', 'VB', 'NN', 'NNS', '.']
+}),
+('"RT @sahabatsuriah: 700 anak \'migrant\' tiba di #Sweden tanpa ortu.', {
+'entities': [(1, 19, 'WORK_OF_ART'), (20, 23, 'CARDINAL'), (48, 54, 'GPE')],
+'heads': [2, 2, 2, 2, 5, 7, 5, 9, 7, 2, 9, 14, 14, 14, 9, 2],
+'deps': ['punct', 'compound', 'ROOT', 'punct', 'nummod', 'poss', 'case', 'poss', 'punct', 'appos', 'appos', 'nmod', 'compound', 'compound', 'appos', 'punct'],
+'tags': ['``', 'NNP', 'NNP', ':', 'CD', 'JJ', 'POS', 'NN', 'POS', 'NN', 'NNP', 'NNP', 'NNP', 'NN', 'NNP', '.']
+}),
+("Kmarin &gt;2000 'migrant' tiba #Hungary, tmsuk 660 anak.", {
+'entities': [(0, 17, 'ORG'), (32, 39, 'GPE'), (47, 50, 'CARDINAL')],
+'heads': [8, 0, 0, 0, 0, 0, 8, 8, 10, 8, 10, 12, 10, 10],
+'deps': ['nmod', 'cc', 'conj', 'punct', 'appos', 'punct', 'compound', 'compound', 'nsubj', 'punct', 'ROOT', 'nummod', 'dobj', 'punct'],
+'tags': ['NNP', 'CC', 'NNP', '``', 'NN', 'POS', 'NNS', 'NNP', 'NNP', ',', 'RB', 'CD', 'NNS', '.']
+}),
+('@BBCGavinHewitt htt…"', {
+'entities': [],
+'heads': [1, 1, 1, 1],
+'deps': ['punct', 'ROOT', 'punct', 'punct'],
+'tags': ['NNP', 'NNP', 'NFP', "''"]
+}),
+('"RT @ValerioDeC: When in 1956 120,000 Hungarian refugees were resettled in Europe, no one in Budapest suggested anti-immigrant walls "', {
+'entities': [(25, 29, 'DATE'), (30, 37, 'CARDINAL'), (38, 47, 'NORP'), (75, 81, 'LOC'), (93, 101, 'GPE')],
+'heads': [19, 19, 1, 19, 11, 11, 5, 9, 9, 11, 11, 19, 11, 12, 19, 16, 19, 16, 17, 19, 21, 22, 23, 19, 19],
+'deps': ['punct', 'nsubj', 'appos', 'punct', 'advmod', 'prep', 'pobj', 'nummod', 'amod', 'nsubjpass', 'auxpass', 'advcl', 'prep', 'pobj', 'punct', 'det', 'nsubj', 'prep', 'pobj', 'ROOT', 'dep', 'dep', 'amod', 'dobj', 'punct'],
+'tags': ['``', 'NN', 'NN', ':', 'WRB', 'IN', 'CD', 'CD', 'JJ', 'NNS', 'VBD', 'VBN', 'IN', 'NNP', ',', 'DT', 'NN', 'IN', 'NNP', 'VBD', 'JJ', 'JJ', 'JJ', 'NNS', "''"]
+}),
+('"RT @DiabolicalIdea:', {
+'entities': [],
+'heads': [1, 1, 1, 1],
+'deps': ['punct', 'ROOT', 'advmod', 'punct'],
+'tags': ['``', 'NNP', 'NN', ':']
+}),
+('Seven decades ago, Germany &amp; Austria created a refugee crisis.', {
+'entities': [(0, 17, 'DATE'), (19, 31, 'ORG'), (33, 40, 'GPE')],
+'heads': [1, 2, 9, 9, 3, 4, 4, 9, 9, 9, 12, 12, 9, 9],
+'deps': ['nummod', 'npadvmod', 'advmod', 'punct', 'pobj', 'cc', 'conj', 'punct', 'nsubj', 'ROOT', 'det', 'compound', 'dobj', 'punct'],
+'tags': ['CD', 'NNS', 'RB', ',', 'NNP', 'CC', 'NN', ':', 'NNP', 'VBD', 'DT', 'NN', 'NN', '.']
+}),
+('Today, they are helping solve one.', {
+'entities': [(0, 5, 'DATE')],
+'heads': [4, 4, 4, 4, 4, 4, 5, 4],
+'deps': ['npadvmod', 'punct', 'nsubj', 'aux', 'ROOT', 'xcomp', 'dobj', 'punct'],
+'tags': ['NN', ',', 'PRP', 'VBP', 'VBG', 'VB', 'CD', '.']
+}),
+('Hats off to them.', {
+'entities': [],
+'heads': [0, 0, 0, 2, 0],
+'deps': ['ROOT', 'prt', 'prep', 'pobj', 'punct'],
+'tags': ['NNS', 'RP', 'IN', 'PRP', '.']
+}),
+('htt…"', {
+'entities': [],
+'heads': [0, 0, 0],
+'deps': ['ROOT', 'punct', 'punct'],
+'tags': ['NNP', 'NFP', "''"]
+}),
+('"Austrian Red Cross Expects 800 to 1,500 Refugees From Hungary in Next Few\xa0Hours "', {
+'entities': [(1, 19, 'ORG'), (28, 31, 'CARDINAL'), (35, 40, 'CARDINAL'), (55, 62, 'GPE'), (66, 74, 'GPE'), (75, 80, 'TIME')],
+'heads': [4, 3, 3, 4, 4, 7, 7, 8, 4, 8, 9, 4, 13, 11, 13, 11, 4],
+'deps': ['punct', 'compound', 'compound', 'nsubj', 'ROOT', 'quantmod', 'quantmod', 'nummod', 'dobj', 'prep', 'pobj', 'prep', 'compound', 'pobj', '', 'pobj', 'punct'],
+'tags': ['``', 'NNP', 'NNP', 'NNP', 'VBZ', 'CD', 'TO', 'CD', 'NNS', 'IN', 'NNP', 'IN', 'NNP', 'JJ', '_SP', 'NNS', "''"]
+}),
+('Germany says about 30 percent of migrants claiming to be Syrian are not  via @Reuters', {
+'entities': [(0, 7, 'GPE'), (13, 29, 'PERCENT'), (57, 63, 'NORP')],
+'heads': [1, 1, 3, 4, 11, 4, 5, 6, 9, 7, 9, 1, 11, 12, 11, 14],
+'deps': ['nsubj', 'ROOT', 'advmod', 'nummod', 'nsubj', 'prep', 'pobj', 'acl', 'aux', 'xcomp', 'acomp', 'ccomp', 'neg', '', 'prep', 'pobj'],
+'tags': ['NNP', 'VBZ', 'IN', 'CD', 'NN', 'IN', 'NNS', 'VBG', 'TO', 'VB', 'JJ', 'VBP', 'RB', '_SP', 'IN', 'CD']
+})
+
+
+
+
+
+
+
+
+
+
+
+]
